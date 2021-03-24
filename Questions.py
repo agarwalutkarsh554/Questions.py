@@ -1,4 +1,5 @@
 import streamlit as st
+import urllib2
 import nltk
 import sys
 import os
@@ -6,7 +7,7 @@ import string
 FILE_MATCHES = 1
 SENTENCE_MATCHES = 1
 import math
-import urllib2
+
 
 FILE_MATCHES = 1
 SENTENCE_MATCHES = 1
