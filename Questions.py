@@ -19,12 +19,9 @@ def main():
     </div>"""
     st.text("Enter Queries related Machine learning and Artificial Intelligence Only")
     st.markdown(html_1,unsafe_allow_html=True)
-    # Check command-line arguments
-    if len(sys.argv) != 2:
-        sys.exit("Usage: python questions.py corpus")
-
+    # Check command-line argument
     # Calculate IDF values across files
-    files = load_files(corpus)
+    files = load_files(sys.argv[1])
     file_words = {
         filename: tokenize(files[filename])
         for filename in files
