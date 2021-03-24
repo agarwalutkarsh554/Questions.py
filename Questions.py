@@ -24,7 +24,7 @@ def main():
         sys.exit("Usage: python questions.py corpus")
 
     # Calculate IDF values across files
-    files = load_files(https://github.com/agarwalutkarsh554/Questions.py/tree/main/corpus)
+    files = load_files(corpus)
     file_words = {
         filename: tokenize(files[filename])
         for filename in files
