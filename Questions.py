@@ -1,5 +1,4 @@
 import streamlit as st
-import urllib2
 import nltk
 import sys
 import os
@@ -23,7 +22,7 @@ def main():
     st.markdown(html_1,unsafe_allow_html=True)
     # Check command-line argument
     # Calculate IDF values across files
-    files = urllib2.urlopen(www.github.com/agarwalutkarsh554/Questions.py/tree/main/corpus)
+    files = load_files(sys.argv[1])
     file_words = {
         filename: tokenize(files[filename])
         for filename in files
