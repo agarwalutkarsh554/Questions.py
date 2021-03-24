@@ -6,6 +6,7 @@ import string
 FILE_MATCHES = 1
 SENTENCE_MATCHES = 1
 import math
+import urllib2
 
 FILE_MATCHES = 1
 SENTENCE_MATCHES = 1
@@ -21,7 +22,7 @@ def main():
     st.markdown(html_1,unsafe_allow_html=True)
     # Check command-line argument
     # Calculate IDF values across files
-    files = os.listdir(https://github.com/agarwalutkarsh554/Questions.py/tree/main/corpus)
+    files = urllib2.urlopen(https://github.com/agarwalutkarsh554/Questions.py/tree/main/corpus)
     file_words = {
         filename: tokenize(files[filename])
         for filename in files
