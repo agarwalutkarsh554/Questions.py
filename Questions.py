@@ -31,12 +31,7 @@ def main():
 
     # Prompt user for query
     query = set(tokenize(st.text_input("Query: ")))
-    if query=={'sanjeev'}:
-        st.text("ye kya keh rhe h!!!")
-    if query=={'kanta'}:
-        st.text("the busmaster")
-    if query=={'praveen'}:
-        st.text("madarsod!!!!")
+  
     # Determine top file matches according to TF-IDF
     filenames = top_files(query, file_words, file_idfs, n=FILE_MATCHES)
 
