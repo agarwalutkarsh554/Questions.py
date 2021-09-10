@@ -1,13 +1,13 @@
 # Questions
 
 A Simple Question Answering System which retrieves the most relevant documents related to a query and presents the most relevant passage in an interactive manner using Artificial Intelligence.
-## Introductions
+## Introduction
 Question Answering (QA) is a field within natural language processing focused on designing systems that can answer questions. Among the more famous question answering systems is Watson, the IBM computer that competed (and won) on Jeopardy!. A question answering system of Watson’s accuracy requires enormous complexity and vast amounts of data, but here we’ll design a very simple question answering system based on inverse document frequency.
 
 ## Requirements
-- **Stremlit**
+- **Streamlit**
 - **Python**
-- **Nltk**
+- **Nltk(Natural Language Toolkit)**
 
 ## Usage
 
